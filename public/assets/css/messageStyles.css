@@ -1,0 +1,14 @@
+#message {
+    position: left; /* Position it fixed to the viewport */
+    top: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    padding: 10px 20px; /* Add some padding */
+    border-radius: 5px; /* Rounded corners */
+    z-index: 1000; /* Make sure it's on top of other elements */
+    transition: opacity 0.5s ease; /* Smooth transition */
+    opacity: 1; /* Fully opaque */
+}
+
+#message p {
+    margin: 0; /* Remove default margin */
+}
